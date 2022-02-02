@@ -1,0 +1,117 @@
+.order {
+  background-color: #f8edf0;
+
+  &__container {
+    position: relative;
+    width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 439px;
+    padding-right: 15px;
+    padding-top: 90px;
+    padding-bottom: 163px;
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    bottom: -47px;
+    border-radius: 35px;
+  }
+
+  &__title {
+    max-width: 621px;
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 1.18;
+
+    color: #000000;
+  }
+
+  &__desc {
+    max-width: 607px;
+    margin-bottom: 29px;
+
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+
+    color: #0f0101;
+
+    opacity: 0.7;
+  }
+}
+
+.options {
+  margin-bottom: 52px;
+
+  &__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+    background: #ffffff;
+    border-radius: 3px;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 1.18;
+
+    color: #000000;
+  }
+}
+
+.download {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 21px;
+  }
+
+  &__item:first-child {
+    background-image: url(.././images/order-img-svg/google-play.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__item:last-child {
+    background-image: url(.././images/order-img-svg/app-store.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__button:first-child {
+    width: 174px;
+    height: 52px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__button:last-child {
+    width: 175px;
+    height: 52px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
